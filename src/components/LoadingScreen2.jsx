@@ -14,9 +14,9 @@ export const LoadingScreen2 = ({ onComplete }) => {
                     }, 1000);
                     return 100;
                 }
-                return prev + 1; // Increase by 1% per tick (every 30ms)
+                return prev + 1; // Increase by 1% per tick (every 5ms)
             });
-        }, 5); // Adjust to control speed of loading (100 * 10ms = 1s total)
+        }, 5); // Adjust to control speed of loading (100 * 5ms = 0.5s total)
 
         return () => clearInterval(interval); // Clean up
     }, [onComplete]);
