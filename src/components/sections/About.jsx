@@ -1,44 +1,9 @@
 import { RevealOnScroll } from '../RevealOnScroll';
-import face from '../../assets/face.png';
-import coop1 from '../../assets/W24.png';
-import coop2 from '../../assets/F24.png';
-import coop3 from '../../assets/S25.png';
-import coop4 from '../../assets/W26.png';
-
-const skills = {
-    "Design": ["AutoCAD", "MicroStation", "Tinkercad", "Tridium Niagara"],
-    "Coding": ["Java", "Python", "C", "C++", "HTML/CSS", "JavaScript", "Matlab"],
-    "Fullstack": ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express", "Axios", "WordPress"],
-    "Data Science": ["Machine Learning", "SQL", "pandas"],
-    "Content": ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
-    "Circuits": ["Arduino", "Breadboard", "FPGAs", "PCBs", "STM32", "VHDL"],
-    "Equipment": ["Soldering", "Oscilloscope", "Power supply", "Multimeter", "Function Generator"],
-    "Tools": ["MS Office", "Excel", "Git", "Github", "AWS", "Jira", "npm"],
-};
-
-const SkillsDisplay = () => {
-    return (
-        <>
-            {
-                Object.entries(skills).map(([category, skillList]) => (
-                    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">{category}</h3>
-                        <div className="flex flex-wrap gap-2">
-                            {skillList.map((skill) => (
-                                <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
-                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition"
-                                >
-                                    {skill}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-                ))
-            }
-        </>
-    )
-};
-
+import Nihilith from '../../assets/nihilith.png';
+import Arcaea from '../../assets/Arcaea.png';
+import Phigros from '../../assets/Phigros.webp';
+import Milthm from '../../assets/Milthm.webp';
+import ParadigmReboot from '../../assets/ParadigmReboot.png';
 
 export const About = () => {
     return (
@@ -48,115 +13,153 @@ export const About = () => {
         >
             <RevealOnScroll>
                 <div className="max-w-3xl mx-auto px-4">
-                    <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-700 to-yellow-400 bg-clip-text text-transparent text-center">
-                        About Me
+                    <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-700 to-pink-400 bg-clip-text text-transparent text-center">
+                        About
                     </h2>
 
                     <div className="glass rounded-xl p-8">
                         <a
-                            href="https://www.linkedin.com/in/d75kim/"
+                            href="https://www.youtube.com/@nihilRG"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex justify-center mb-4"
+                            className="flex justify-center mb-16"
                         >
                             <img
-                                src={face}
-                                alt="LinkedIn page"
-                                className="h-50 w-50 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]"
+                                src={Nihilith}
+                                alt="YouTube Channel Logo"
+                                className="h-50 w-50 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]"
                             />
                         </a>
 
                         <p className="text-gray-300 mb-6">
-                            Hi! I'm Daniel, an ambitious undergrad bridging hardware and software to create meaningful, real-world solutions. With experience spanning embedded systems, full-stack web development, and automation graphics, I enjoy transforming ideas into tangible systems that connect technology with people.
+                            From the remains of a Shiba Inu drowning in his ramen cup, a four-foot, four-winged deity emerged—pristine, divine, and bored out of her mind. Now I wander the mortal realm, dominating rhythm games in search of anything that's worth my time.
                         </p>
                         <p className="text-gray-300 mb-6">
-                            Outside of engineering, I run multiple YouTube channels where I apply my skills in video editing, SEO, and storytelling to engage a growing audience. I’m always excited to learn, build, and contribute to projects that make an impact, whether it’s coding interactive games, prototyping new circuits, or exploring creative software tools.
+                            How did an obese dog become a celestial being with a different height, weight, and gender? Beats me.
                         </p>
                     </div>
 
-                    <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition-all">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <SkillsDisplay />
-                        </div>
-                    </div>
-
-                    <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 mt-8
-    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition-all">
-                        <h3 className="text-xl font-bold mb-4">Education</h3>
+                    <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 mt-8
+    hover:shadow-[0_2px_8px_rgba(6,182,212,0.1)] transition-all">
+                        <h3 className="text-xl font-bold mb-4">Q&A</h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <div className="space-y-2">
-                                <strong> BASc in Electrical Engineering (Co-op) </strong> - University of Waterloo (09/2023 - 04/2028)
+                                <strong> Why "nihilith?" </strong>
                             </div>
                             <li>
-                                GPA: 3.8/4.0
+                                nihil- → Nihility: because nothing truly holds meaning…
                             </li>
                             <li>
-                                Coursework: Signals, Power Systems, Semiconductor Physics, Data Structures and Algorithms, Advanced Calculus 2
+                                -lith → Divinity and finality: fitting for an all-powerful goddess like me~
+                            </li>
+                            <li>
+                                Also, it just sounds cool. Admit it.
                             </li>
                             <div className="space-y-2">
-                                <strong> Ontario Secondary School Diploma </strong> - St. Theresa of Lisieux Catholic High School (09/2019 - 06/2023)
+                                <strong> Why four wings? </strong>
                             </div>
                             <li>
-                                GPA: 95.00%
+                                Two to soar above mortals. Two more to flex on them.
                             </li>
+                            <div className="space-y-2">
+                                <strong> Are you single? </strong>
+                            </div>
+                            <li>
+                                My only affair is with rhythm games. Besides, mortals are too fragile to handle me.
+                            </li>
+                            <li>
+                                My vessel, on the other hand... eternally a lost cause.
+                            </li>
+                            <div className="space-y-2">
+                                <strong> Can I still call you "Ramen?" </strong>
+                            </div>
+                            <li>
+                                Would you call a phoenix by its ashes?
+                            </li>
+                            <div className="space-y-2">
+                                <strong> What’s harder: university or rhythm games? </strong>
+                            </div>
+                            <li>
+                                In university, students fight for their lives to pass.
+                            </li>
+                            <li>
+                                In rhythm games, they cry over a single miss.
+                            </li>
+                            <li>
+                                I feast on both.
+                            </li>
+                            <div className="space-y-2">
+                                <strong> How do I get better at rhythm games? </strong>
+                            </div>
+                            <li>
+                                Play.
+                            </li>
+                            <li>
+                                Keep playing.
+                            </li>
+                            <li>
+                                Cry.
+                            </li>
+                            <li>
+                                <span style={{ textDecoration: 'line-through' }}>Accept that I'll always be better.</span>
+                            </li>
+                            
                         </ul>
                     </div>
 
-                    <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 mt-8
-    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition-all">
-                        <h3 className="text-xl font-bold mb-4">Work Experience</h3>
+                    <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 mt-8
+    hover:shadow-[0_2px_8px_rgba(6,182,212,0.1)] transition-all">
+                        <h3 className="text-xl font-bold mb-4">Timeline</h3>
 
                         <div className="space-y-8 text-gray-300">
-                            {/* Winter 2026 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
-                                    <h4><strong>QA Analyst</strong> - Mircom Group of Companies (01/2026 - 04/2026)</h4>
-                                    <li>Used exising test strategies and procedures for design verification of networked fire alarm control panels and system configuration tools</li>
-                                    <li>Developed documentation of test procedures and regression test plans</li>
-                                    <li>Performed features, functions, stability, and regression testing on products</li>
+                                    <h4><strong>Arcaea</strong> - 03/2023</h4>
+                                    <li>Reached 12.5pt - 03/2024</li>
+                                    <li>First 10+ PM (Inverted World [ETR]) - 09/2024</li>
+                                    <li>Reached 13pt - 07/2025</li>
+                                    <li>First 11 PM (Undying Macula [ETR]) - 10/2025</li>
                                 </div>
-                                <a href="https://mircom.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
-                                    <img src={coop4} alt="Mircom Group of Companies" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
+                                <a href="https://arcaea.lowiro.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={Arcaea} alt="Arcaea" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]" />
                                 </a>
                             </div>
 
-                            {/* Spring 2025 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
-                                    <h4><strong>Graphics Designer</strong> - University of Waterloo (05/2025 - 08/2025)</h4>
-                                    <li>Designed graphics for 25 campus buildings with Tridium Niagara 4, JavaScript, and UI/UX to improve ease of use and situational awareness for HVAC operators</li>
-                                    <li>Authored onboarding documentation and video tutorials for future co-op students by applying knowledge of air handling units, chillers, and heat exchangers, reducing training time by 50%</li>
+                                    <h4><strong>Phigros</strong> - 12/2023</h4>
+                                    <li>Highest chart constant FC (Rrhar'il [AT]) - 10/2024</li>
+                                    <li>Reached 16.5 RKS - 10/2024</li>
+                                    <li>Rainbow 45 - 10/2025</li>
+                                    <li>First 17 AP (AbsoluTe disoRdeR [AT]) - 10/2025</li>
+                                    <li>Best AP (Igallta [AT]) - 11/2025</li>
                                 </div>
-                                <a href="https://uwaterloo.ca/plant-operations/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
-                                    <img src={coop3} alt="University of Waterloo Plant Operations" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
+                                <a href="https://phigros.fandom.com/wiki/Phigros_Wiki" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={Phigros} alt="Phigros" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]" />
                                 </a>
                             </div>
 
-                            {/* Fall 2024 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
-                                    <h4><strong>Fullstack Developer</strong> - Wiz Robotics (09/2024 - 12/2024)</h4>
-                                    <li>Utilized React, Node.js, Express, and Axios to develop a certified curriculum for 30 students per term</li>
-                                    <li>Designed an AI prompting curriculum for 100+ teachers in the GTA, promoting AI use in classrooms</li>
-                                    <li>Boosted SEO performance by revamping websites with Wordpress and Elementor, increasing click-through rate by 30%</li>
-                                    <li>Taught Arduino wiring and code concepts to 50+ students using Arduino IDE</li>
+                                    <h4><strong>Milthm</strong> - 09/2024</h4>
+                                    <li>First 12+ AP (Contrasty Angeles [CL]) - 09/2024</li>
+                                    <li>First 11 MAX AP (Fragment of Memories [CB]) - 03/2025</li>
+                                    <li>Hardest chart AP (Rainshower) - 07/2025</li>
+                                    <li>Highest chart constant AP (Rei [CB]) - 09/2025</li>
                                 </div>
-                                <a href="https://wizrobotics.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
-                                    <img src={coop2} alt="Wiz Robotics" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
+                                <a href="https://milthm.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={Milthm} alt="Milthm" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]" />
                                 </a>
                             </div>
 
-                            {/* Winter 2024 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
-                                    <h4><strong>Web Developer</strong> - Upgraded Technologies Inc. (01/2024 - 04/2024)</h4>
-                                    <li>Identified SEO errors, enabling the site to rank on Google's first page</li>
-                                    <li>Utilized HTML/CSS and Webflow to ensure responsive and visually consistent design</li>
-                                    <li>Maintained clear daily communication to achieve project goals</li>
+                                    <h4><strong>Paradigm: Reboot</strong> - 06/2025</h4>
+                                    <li>First 16+ AD (Cybernetic Vampire [MSV]) - 09/2025</li>
+                                    <li>Best AD (LABYRINTHOX [MSV]) - 11/2025</li>
                                 </div>
-                                <a href="https://www.getupgraded.ca/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
-                                    <img src={coop1} alt="Upgraded Technologies Inc." className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
+                                <a href="https://paradigmreboot.fandom.com/wiki/Paradigm:_Reboot_Wiki" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={ParadigmReboot} alt="Paradigm: Reboot" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]" />
                                 </a>
                             </div>
                         </div>

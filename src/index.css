@@ -8,6 +8,14 @@ html, body {
   color: #f3f4f6;
 }
 
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.logo-text {
+  font-family: "Dancing Script", cursive;
+}
+
 @layer utilities {
   @keyframes loading {
     0% {

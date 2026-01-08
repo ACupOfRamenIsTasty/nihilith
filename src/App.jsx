@@ -6,9 +6,8 @@ import { Navbar } from './components/Navbar';
 import { MobileMenu } from './components/MobileMenu';
 import { Home } from './components/sections/Home';
 import { About } from './components/sections/About';
-import { Projects } from './components/sections/Projects';
-import { Channels } from './components/sections/Channels';
-import { Contact } from './components/sections/Contact';
+import { Gameplay } from './components/sections/Gameplay';
+import { Summon } from './components/sections/Summon';
 import "./index.css"
 
 function App() {
@@ -29,9 +28,8 @@ function App() {
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
       <About />
-      <Projects />
-      <Channels />
-      <Contact />
+      <Gameplay />
+      <Summon />
     </div>
   </>;
 }

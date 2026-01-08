@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import logo from "../../public/logo.png";
+import logo from "../../public/main_logo.png";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
     // Prevent scrolling when mobile menu is open
@@ -13,7 +13,11 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                 <div className="flex justify-between items-center py-0">
 
                     {/* Logo */}
-                    <a href="#home" className="flex items-center space-x-2">
+                    <a
+                        href="https://acupoframenistasty.github.io/portfolio/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2">
                         <img src={logo} alt="Logo" className="h-15 w-auto" />
                         <span className="text-white text-xl font-bold">ACupOfRamen</span>
                     </a>
@@ -50,24 +54,17 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                         </a>
 
                         <a
-                            href="#projects"
+                            href="#gameplay"
                             className="text-gray-300 hover:text-white transition-colors"
                         >
-                            Projects
+                            Gameplay
                         </a>
 
                         <a
-                            href="#channels"
+                            href="#summon"
                             className="text-gray-300 hover:text-white transition-colors"
                         >
-                            YouTube
-                        </a>
-
-                        <a
-                            href="#contact"
-                            className="text-gray-300 hover:text-white transition-colors"
-                        >
-                            Contact
+                            Summon
                         </a>
                     </div>
                 </div>

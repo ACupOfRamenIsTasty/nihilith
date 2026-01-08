@@ -16,7 +16,7 @@ export const LoadingScreen2 = ({ onComplete }) => {
                 }
                 return prev + 1; // Increase by 1% per tick (every 30ms)
             });
-        }, 10); // Adjust to control speed of loading (100 * 30ms = 3s total)
+        }, 5); // Adjust to control speed of loading (100 * 10ms = 1s total)
 
         return () => clearInterval(interval); // Clean up
     }, [onComplete]);
@@ -31,14 +31,14 @@ export const LoadingScreen2 = ({ onComplete }) => {
             />
 
             {/* % Loading Text */}
-            <div className="text-4xl font-Saira font-bold">
+            <div className="text-4xl logo-text font-bold">
                 {progress}%
             </div>
 
             {/* Progress Bar */}
             <div className="w-[200px] h-[2px] bg-gray-800 rounded overflow-hidden">
                 <div
-                    className="h-full bg-orange-500 shadow-[0_0_15px_#f6823b] transition-all duration-100"
+                    className="h-full bg-pink-500 shadow-[0_0_15px_#ec4899] transition-all duration-100"
                     style={{ width: `${progress}%` }}
                 ></div>
             </div>
