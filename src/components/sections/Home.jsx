@@ -11,7 +11,7 @@ export const Home = () => {
             <div className="absolute inset-0 z-0 pointer-events-none">
                 <video
                     src={intro}
-                    className="w-full h-full object-cover opacity-10"
+                    className="w-full h-full object-cover opacity-0 md:opacity-10"
                     autoPlay
                     muted
                     playsInline
