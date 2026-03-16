@@ -119,6 +119,7 @@ export const About = () => {
                                     <li>First 10+ PM (Inverted World [ETR]) - 09/2024</li>
                                     <li>Reached 13pt - 07/2025</li>
                                     <li>First 11 PM (Undying Macula [ETR]) - 10/2025</li>
+                                    <li>Best PM (Axium Divergence [BYD]) - 03/2026</li>
                                 </div>
                                 <a href="https://arcaea.lowiro.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={Arcaea} alt="Arcaea" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]" />
