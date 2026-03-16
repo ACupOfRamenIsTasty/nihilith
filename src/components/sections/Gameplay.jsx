@@ -19,6 +19,33 @@ export const Gameplay = () => {
                     hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
+                                Axium Divergence [BYD] (Arcaea)
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                2026/03/15
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Difficulty: BYD 11.3<br/>
+                                Potential: 13.07<br/>
+                            </p>
+                            <div className="rounded-xl overflow-hidden mb-4">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/ep8DReHGXH0"
+                                    title="Axium Divergence [BYD] (Arcaea)"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className="w-full h-full"
+                                ></iframe>
+                            </div>
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30
+                    hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
                                 Igallta [AT] (Phigros)
                             </h3>
                             <h4 className="text-lg mb-2">
@@ -28,15 +55,6 @@ export const Gameplay = () => {
                                 Difficulty: AT 17.4<br/>
                                 RKS: 16.87<br/>
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {['Phigros', 'Highest difficulty'].map((tag, key) => (
-                                    <span className="bg-purple-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-400/20
-                            hover:shadow-[0_2px_8px_rgba(236,72,153,0.2)] transition-all"
-                                    >
-                                        {tag}
-                                    </span>
-                                ))}
-                            </div>
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe
                                     width="560"
@@ -51,7 +69,7 @@ export const Gameplay = () => {
                             </div>
                         </div>
 
-                        {/* <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30
                     hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
@@ -64,15 +82,6 @@ export const Gameplay = () => {
                                 Difficulty: AT 17.1<br/>
                                 RKS: 16.84<br/>
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {['Phigros', 'Highest difficulty'].map((tag, key) => (
-                                    <span className="bg-purple-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-400/20
-                            hover:shadow-[0_2px_8px_rgba(236,72,153,0.2)] transition-all"
-                                    >
-                                        {tag}
-                                    </span>
-                                ))}
-                            </div>
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe
                                     width="560"
@@ -85,7 +94,7 @@ export const Gameplay = () => {
                                     className="w-full h-full"
                                 ></iframe>
                             </div>
-                        </div> */}
+                        </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30
                     hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
@@ -100,15 +109,6 @@ export const Gameplay = () => {
                                 Difficulty: MSV 16.9<br/>
                                 Rating: 121.9060<br/>
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {['Paradigm: Reboot'].map((skill, key) => (
-                                    <span className="bg-purple-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-400/20
-                            hover:shadow-[0_2px_8px_rgba(236,72,153,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe
                                     width="560"
@@ -136,15 +136,6 @@ export const Gameplay = () => {
                                 Difficulty: AT 17.2<br/>
                                 RKS: 16.79<br/>
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {['Phigros', 'Highest difficulty'].map((tag, key) => (
-                                    <span className="bg-purple-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-400/20
-                            hover:shadow-[0_2px_8px_rgba(236,72,153,0.2)] transition-all"
-                                    >
-                                        {tag}
-                                    </span>
-                                ))}
-                            </div>
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe
                                     width="560"
@@ -172,15 +163,6 @@ export const Gameplay = () => {
                                 Difficulty: ETR 11.0<br/>
                                 Potential: 13.03<br/>
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {['Arcaea'].map((tag, key) => (
-                                    <span className="bg-purple-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-400/20
-                            hover:shadow-[0_2px_8px_rgba(236,72,153,0.2)] transition-all"
-                                    >
-                                        {tag}
-                                    </span>
-                                ))}
-                            </div>
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe
                                     width="560"
@@ -208,15 +190,6 @@ export const Gameplay = () => {
                                 Difficulty: CB 12.8<br/>
                                 Rating: 13.31<br/>
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {['Milthm', 'Limit break'].map((skill, key) => (
-                                    <span className="bg-purple-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-400/20
-                            hover:shadow-[0_2px_8px_rgba(236,72,153,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe
                                     width="560"
@@ -244,15 +217,6 @@ export const Gameplay = () => {
                                 Difficulty: Hard 11.0<br/>
                                 Skill: 216.20<br/>
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {['DEEMO II', 'Highest difficulty'].map((skill, key) => (
-                                    <span className="bg-purple-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-400/20
-                            hover:shadow-[0_2px_8px_rgba(236,72,153,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe
                                     width="560"
