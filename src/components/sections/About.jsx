@@ -145,7 +145,6 @@ export const About = () => {
                                     <h4><strong>Milthm</strong> - 09/2024</h4>
                                     <li>First 12+ AP (Contrasty Angeles [CL]) - 09/2024</li>
                                     <li>First 11 MAX AP (Fragment of Memories [CB]) - 03/2025</li>
-                                    <li>Hardest chart AP (Rainshower) - 07/2025</li>
                                     <li>Highest chart constant AP (Rei [CB]) - 09/2025</li>
                                 </div>
                                 <a href="https://milthm.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
