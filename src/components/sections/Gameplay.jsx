@@ -24,7 +24,7 @@ export const Gameplay = () => {
                                 2026/07/24
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Difficulty: CB 10+<br/>
+                                Difficulty: CB 10.5<br/>
                                 Rating: 13.62<br/>
                             </p>
                             <div className="rounded-xl overflow-hidden mb-4">
@@ -50,7 +50,7 @@ export const Gameplay = () => {
                                 2026/04/04
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Difficulty: CB 10+<br/>
+                                Difficulty: CB 10.8<br/>
                                 Rating: 13.59<br/>
                             </p>
                             <div className="rounded-xl overflow-hidden mb-4">
@@ -184,7 +184,7 @@ export const Gameplay = () => {
                                 2025/09/26
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Difficulty: CB 12.8<br/>
+                                Difficulty: CB 12.7<br/>
                                 Rating: 13.31<br/>
                             </p>
                             <div className="rounded-xl overflow-hidden mb-4">
