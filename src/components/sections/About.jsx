@@ -144,8 +144,9 @@ export const About = () => {
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Milthm</strong> - 09/2024</h4>
                                     <li>First 12+ AP (Contrasty Angeles [CL]) - 09/2024</li>
-                                    <li>First 11 MAX AP (Fragment of Memories [CB]) - 03/2025</li>
+                                    <li>First "11" MAX AP (Fragment of Memories [CB]) - 03/2025</li>
                                     <li>Highest chart constant AP (Rei [CB]) - 09/2025</li>
+                                    <li>First 11+ MAX AP (HYPER MEMORIES [CB]) - 08/2026</li>
                                 </div>
                                 <a href="https://milthm.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={Milthm} alt="Milthm" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]" />

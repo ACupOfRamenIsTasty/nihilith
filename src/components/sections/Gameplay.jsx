@@ -18,21 +18,21 @@ export const Gameplay = () => {
                     hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
-                                La Fouldre [CB] MAX理論値 (Milthm)
+                                HYPER MEMORIES [CB] MAX理論値 (Milthm)
                             </h3>
                             <h4 className="text-lg mb-2">
-                                2026/07/24
+                                2026/08/10
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Difficulty: CB 10.5<br/>
-                                Rating: 13.62<br/>
+                                Difficulty: CB 11.8<br/>
+                                Rating: 13.64<br/>
                             </p>
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe
                                     width="560"
                                     height="315"
-                                    src="https://www.youtube.com/embed/phkmOgTl-KE"
-                                    title="La Fouldre [CB] MAX理論値 (Milthm)"
+                                    src="https://www.youtube.com/embed/MzV538F4MbI"
+                                    title="HYPER MEMORIES [CB] MAX理論値 (Milthm)"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
