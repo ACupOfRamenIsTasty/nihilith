@@ -18,6 +18,33 @@ export const Gameplay = () => {
                     hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
+                                DREAD AREA [INS] (Arcaea)
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                2026/09/08
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Difficulty: INS 11.4<br/>
+                                Potential: 13.218<br/>
+                            </p>
+                            <div className="rounded-xl overflow-hidden mb-4">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/9UcwZ7eXdjo"
+                                    title="DREAD AREA [INS] (Arcaea)"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className="w-full h-full"
+                                ></iframe>
+                            </div>
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30
+                    hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
                                 HYPER MEMORIES [CB] MAX理論値 (Milthm)
                             </h3>
                             <h4 className="text-lg mb-2">
@@ -59,32 +86,6 @@ export const Gameplay = () => {
                                     height="315"
                                     src="https://www.youtube.com/embed/57uKQIth8N8"
                                     title="Myth compiler [CB] WORLD #1 MAX理論値 (Milthm)"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                    className="w-full h-full"
-                                ></iframe>
-                            </div>
-                        </div>
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30
-                    hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
-                        >
-                            <h3 className="text-xl font-bold mb-2">
-                                Axium Divergence [BYD] (Arcaea)
-                            </h3>
-                            <h4 className="text-lg mb-2">
-                                2026/03/15
-                            </h4>
-                            <p className="text-gray-400 mb-4">
-                                Difficulty: BYD 11.3<br/>
-                                Potential: 13.07<br/>
-                            </p>
-                            <div className="rounded-xl overflow-hidden mb-4">
-                                <iframe
-                                    width="560"
-                                    height="315"
-                                    src="https://www.youtube.com/embed/ep8DReHGXH0"
-                                    title="Axium Divergence [BYD] (Arcaea)"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
