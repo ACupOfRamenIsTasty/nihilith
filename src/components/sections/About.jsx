@@ -119,7 +119,6 @@ export const About = () => {
                                     <li>First 10+ PM (Inverted World [ETR]) - 09/2024</li>
                                     <li>Reached 13pt - 07/2025</li>
                                     <li>First 11 PM (Undying Macula [ETR]) - 10/2025</li>
-                                    <li>Best PM (DREAD AREA [INS]) - 09/2026</li>
                                 </div>
                                 <a href="https://arcaea.lowiro.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={Arcaea} alt="Arcaea" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]" />
@@ -129,11 +128,11 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Phigros</strong> - 12/2023</h4>
-                                    <li>Highest chart constant FC (Rrhar'il [AT]) - 10/2024</li>
                                     <li>Reached 16.5 RKS - 10/2024</li>
+                                    <li>Rainbow 42 - 07/2025</li>
                                     <li>Rainbow 45 - 10/2025</li>
                                     <li>First 17 AP (AbsoluTe disoRdeR [AT]) - 10/2025</li>
-                                    <li>Best AP (Igallta [AT]) - 11/2025</li>
+                                    <li>Reached 17 RKS - 09/2026</li>
                                 </div>
                                 <a href="https://phigros.fandom.com/wiki/Phigros_Wiki" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={Phigros} alt="Phigros" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]" />
@@ -145,7 +144,6 @@ export const About = () => {
                                     <h4><strong>Milthm</strong> - 09/2024</h4>
                                     <li>First 12+ AP (Contrasty Angeles [CL]) - 09/2024</li>
                                     <li>First "11" MAX AP (Fragment of Memories [CB]) - 03/2025</li>
-                                    <li>Highest chart constant AP (Rei [CB]) - 09/2025</li>
                                     <li>First 11+ MAX AP (HYPER MEMORIES [CB]) - 08/2026</li>
                                 </div>
                                 <a href="https://milthm.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
@@ -157,7 +155,6 @@ export const About = () => {
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Paradigm: Reboot</strong> - 06/2025</h4>
                                     <li>First 16+ AD (Cybernetic Vampire [MSV]) - 09/2025</li>
-                                    <li>Best AD (LABYRINTHOX [MSV]) - 11/2025</li>
                                 </div>
                                 <a href="https://paradigmreboot.fandom.com/wiki/Paradigm:_Reboot_Wiki" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={ParadigmReboot} alt="Paradigm: Reboot" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(6,182,212,0.7)]" />

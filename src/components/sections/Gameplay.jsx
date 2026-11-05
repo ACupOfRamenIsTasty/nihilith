@@ -18,6 +18,33 @@ export const Gameplay = () => {
                     hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
+                                Petrichor [AT] (Phigros)
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                2026/10/27
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Difficulty: AT 17.5<br/>
+                                RKS: 17.10<br/>
+                            </p>
+                            <div className="rounded-xl overflow-hidden mb-4">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/hEKV9_pf7xE"
+                                    title="Petrichor [AT] (Phigros)"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className="w-full h-full"
+                                ></iframe>
+                            </div>
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30
+                    hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
                                 DREAD AREA [INS] (Arcaea)
                             </h3>
                             <h4 className="text-lg mb-2">
@@ -140,33 +167,6 @@ export const Gameplay = () => {
                                     height="315"
                                     src="https://www.youtube.com/embed/_RGjZOVRJJQ"
                                     title="LABYRINTHOX [MSV] (Paradigm: Reboot)"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                    className="w-full h-full"
-                                ></iframe>
-                            </div>
-                        </div>
-
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30
-                    hover:shadow-[0_2px_8px_rgba(236,72,153,0.1)] transition"
-                        >
-                            <h3 className="text-xl font-bold mb-2">
-                                AbsoluTe disoRdeR [AT] (Phigros)
-                            </h3>
-                            <h4 className="text-lg mb-2">
-                                2025/10/30
-                            </h4>
-                            <p className="text-gray-400 mb-4">
-                                Difficulty: AT 17.2<br/>
-                                RKS: 16.79<br/>
-                            </p>
-                            <div className="rounded-xl overflow-hidden mb-4">
-                                <iframe
-                                    width="560"
-                                    height="315"
-                                    src="https://www.youtube.com/embed/xvhI5ZAFLDo"
-                                    title="AbsoluTe disoRdeR [AT] (Phigros)"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
